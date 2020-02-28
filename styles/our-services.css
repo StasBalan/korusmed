@@ -1,18 +1,13 @@
 .services {
 	margin-top: 35px;
-	margin-bottom: 67px;
-}
-
-.services__title {
-	margin-bottom: 42px;
-	font-size: 42px;
-	font-weight: 500;
+	margin-bottom: 85px;
 }
 
 .services__cards {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-between;
+	margin-top: 40px;
 	margin-bottom: 33px;
 }
 
@@ -70,16 +65,15 @@
 }
 
 .services__text {
-	margin-bottom: 20px;
+	margin-bottom: 35px;
 	font-size: 20px;
 	font-weight: 500;
-	color: var(--primary-2);
 	line-height: 32px;
 }
 
 .services__button {
-	padding: 13px 26px;
-	background: var(--services-button);
+	padding: 16px 26px;
+	background: var(--button);
 	border-radius: 20px;
 	box-shadow: 2px 2px 10px rgba(245, 0, 52, 0.4);
 	font-size: 18px;

@@ -2,10 +2,11 @@
 	--white: #fff;
 	--black: #000;
 	--primary: #1D156A;
-	--primary-2: #394955;
+	--text: #394955;
 	--reviews-slider-text: #535353;
 	--menu-border: #DDDDDD;
-	--services-button: #F50034;
+	--button: #F50034;
+	--item-title: #1D156A;
 }
 
 * {
@@ -17,7 +18,8 @@ body {
   	display: flex;
   	flex-direction: column;
   	min-height: 100vh;
-  	font-family: Muller, Arial, sans-serif;
+		font-family: Muller, Arial, sans-serif;
+		color: var(--text);
 }
 
 .container {
@@ -40,11 +42,28 @@ p {
 	margin-bottom: 65px;
 	font-size: 42px;
 	font-weight: 500;
-	color: var(--primary-2);
+	color: var(--text);
 }
 
 .title span {
 	color: var(--primary);
+}
+
+.section__title {
+	font-size: 42px;
+	font-weight: 500;
+}
+
+.brends-item {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 263px;
+	height: 150px;
+	margin-bottom: 30px;
+	background-color: var(--white);
+	border-radius: 10px;
+	box-shadow: 0px 4px 10px rgba(80, 80, 80, 0.15);
 }
 
 /*----------*/
@@ -144,7 +163,7 @@ p {
 	margin-right: 40px;
 	font-size: 18px;
 	font-weight: normal;
-	color: var(--primary-2);
+	color: var(--text);
 }
 
 .active {

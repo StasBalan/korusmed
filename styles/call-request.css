@@ -1,0 +1,39 @@
+.call-request {
+	margin-top: 35px;
+	margin-bottom: 50px;
+}
+
+.request-form {
+	display: flex;
+	flex-direction: column;
+	margin-top: 50px;
+}
+
+.request-form input {
+	width: 353px;
+	height: 50px;
+	margin-bottom: 20px;
+	border: 1px solid #1D156A;
+	border-radius: 20px;
+	text-align: center;
+	outline: none;
+}
+
+.request-form__button {
+	cursor: pointer;
+	width: 353px;
+	height: 54px;
+	background: var(--button);
+	border: 0;
+	border-radius: 20px;
+	box-shadow: 2px 2px 10px rgba(245, 0, 52, 0.4);
+	font-size: 18px;
+	font-weight: bold;
+	color: var(--white);
+}
+
+.call-request__text {
+	font-size: 12px;
+	font-weight: 300;
+	margin-top: 28px;
+}

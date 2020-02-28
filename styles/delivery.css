@@ -1,0 +1,34 @@
+.delivery {
+	margin-top: 35px;
+	margin-bottom: 67px;
+}
+
+.delivery__top {
+	display: flex;
+}
+
+.left {
+	margin-right: 28px;
+}
+
+.delivery__text {
+	margin-top: 33px;
+	font-size: 18px;
+	font-weight: normal;
+	line-height: 25px;
+}
+
+.delivery__subtitle {
+	font-size: 22px;
+	font-weight: 500;
+	color: var(--item-title);
+}
+
+.right {
+	display: flex;
+	align-items: flex-end;
+}
+
+.delivery__bottom {
+	width: 943px;
+}
