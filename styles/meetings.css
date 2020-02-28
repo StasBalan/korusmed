@@ -1,0 +1,48 @@
+.meetings {
+	margin-top: 35px;
+	margin-bottom: 35px;
+}
+
+.meetings__items {
+    margin-top: 52px;
+}
+
+.meetings__item.item {
+    margin-bottom: 30px;
+}
+
+.item__title {
+    font-size: 25px;
+    font-weight: bold;
+    color: var(--primary);
+    text-decoration-line: underline;
+}
+
+.item__body {
+    display: flex;
+    margin-top: 33px;
+}
+
+.item__img {
+    margin-right: 30px;
+}
+
+.item__wrapper-text {
+    display: flex;
+    flex-direction: column;
+    width: 652px;
+}
+
+.item__text {
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 28px;
+}
+
+.item__date {
+    margin-top: 10px;
+    font-size: 14px;
+    font-weight: normal;
+    color: var(--primary);
+    text-align: right;
+}
