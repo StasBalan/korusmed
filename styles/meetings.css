@@ -46,3 +46,42 @@
     color: var(--primary);
     text-align: right;
 }
+
+@media screen and (max-width: 420px) {
+    .meetings {
+        margin-top: 30px;
+    }
+
+    .meetings__items {
+        margin-top: 30px;
+    }
+
+    .meetings__item.item {
+        margin-bottom: 38px;
+    }
+
+    .item__title {
+        font-size: 20px;
+        line-height: 30px;
+    }
+
+	.item__body {
+        flex-direction: column;
+        margin-top: 18px;
+    }
+
+    .item__img {
+        margin-right: 0;
+        height: 260.84px;
+    }
+    
+    .item__wrapper-text {
+        width: 100%;
+        margin-top: 28px;
+    }
+
+    .item__date {
+        margin-top: 15px;
+        text-align: left;
+    }
+}

@@ -346,20 +346,19 @@ p {
 }
 
 .footer__dev p {
+	align-self: flex-end;
 	margin-bottom: 0;
 	margin-right: 7px;
 	font-size: 14px;
-	align-self: flex-end;
 }
 
 @media screen and (max-width: 420px) {
 	.container {
-		width: 93%;
+		max-width: 93%;
 	}
 
 	.header {
-		width: 375px;
-		height: 125px;
+		padding: 20px 0;
 	}
 
 	.header__icon {
@@ -368,6 +367,10 @@ p {
 	
 	.header__info, .header__actions {
 		display: none;
+	}
+
+	.header__burger {
+		margin-left: 28px;
 	}
 
 	.menu {
@@ -397,5 +400,13 @@ p {
 
 	.footer__dev {
 		margin-left: 0;
+	}
+
+	.footer__dev p {
+		order: 2;
+	}
+
+	.footer__dev img {
+		order: 1;
 	}
 }

@@ -23,6 +23,10 @@
     margin-right: 32px;
 }
 
+.meetings-item__img--mobile {
+    display: none;
+}
+
 .meetings-item__wrapper-text {
     display: flex;
     flex-direction: column;
@@ -41,4 +45,41 @@
     font-size: 14px;
     font-weight: normal;
     color: var(--primary);
+}
+
+@media screen and (max-width: 420px) {
+	.meetings-item {
+		margin-top: 30px;
+		margin-bottom: 42px;
+    }
+
+    .meetings-item__title {
+        font-size: 20px;
+        line-height: 30px;
+    }
+
+    .meetings-item__body {
+        flex-direction: column;
+    }
+
+    .meetings-item__img {
+        display: none;
+    }
+
+    .meetings-item__img--mobile {
+        display: block;
+    }
+
+    .meetings-item__wrapper-text {
+        margin-top: 38px;
+    }
+
+    .meetings-item__text {
+        font-size: 14px;
+        line-height: 22px;
+    }
+
+    .meetings-item__date {
+        margin-top: 20px;
+    }
 }
